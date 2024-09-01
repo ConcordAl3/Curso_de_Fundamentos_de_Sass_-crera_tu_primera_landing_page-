@@ -1,15 +1,15 @@
 /* Colores */
 /* Font-family */
-body {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #FFEFE7;
 }
 
 html {
   font-size: 62.5%;
   font-family: "IBM Plex Sans", sans-serif;
+  background-color: #FFEFE7;
 }
 
 nav {
@@ -54,6 +54,54 @@ nav .icons .clard {
   width: 30px;
   height: 30px;
   background-image: url("https://i.postimg.cc/XvHKsdJ0/shopping-cart.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* 
+    empiezo con mi main, termine el head
+*/
+article {
+  width: auto;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  color: #7C6A0A;
+}
+article .impact--section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+article h1 {
+  font-size: 3.5rem;
+}
+article p {
+  width: 45vw;
+  height: auto;
+  margin-top: -150px;
+  font-size: 1.9rem;
+  text-align: justify;
+}
+article button {
+  width: 12vw;
+  height: auto;
+  min-height: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #FA9500;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 35px;
+  box-shadow: 3px 6px 16px -5px rgba(0, 0, 0, 0.49);
+}
+article .img--section {
+  width: 30vw;
+  height: 520px;
+  border-radius: 19px;
+  background-image: url("https://i.postimg.cc/Cx96m36N/main-2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
