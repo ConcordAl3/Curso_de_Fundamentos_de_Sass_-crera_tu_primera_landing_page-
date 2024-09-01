@@ -13,7 +13,7 @@ html {
 }
 
 nav {
-  width: auto;
+  width: 100vw;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -63,7 +63,7 @@ nav .icons .clard {
     empiezo con mi main, termine el head
 */
 article {
-  width: auto;
+  width: 100vw;
   padding: 60px;
   display: flex;
   justify-content: space-between;
@@ -97,12 +97,47 @@ article button {
   border-radius: 35px;
   box-shadow: 3px 6px 16px -5px rgba(0, 0, 0, 0.49);
 }
-article .img--section {
-  width: 30vw;
+article img {
+  width: 32vw;
   height: 520px;
   border-radius: 19px;
-  background-image: url("https://i.postimg.cc/Cx96m36N/main-2.jpg");
-  background-size: cover;
-  background-position: center;
+}
+
+section {
+  padding: 60px;
+  width: 100vw;
+  height: auto;
+}
+section h2 {
+  font-size: 2.5rem;
+  color: #7C6A0A;
+}
+section .card--section {
+  padding-top: 60px;
+}
+section .product--card {
+  width: 15vw;
+  height: auto;
+  padding: 20px;
+  background-color: #FFDAC6;
+  color: #7C6A0A;
+  border-radius: 8px;
+}
+section .product--card button {
+  background: none;
+  border-style: none;
+}
+section .product--card .heart {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://i.postimg.cc/43NbvBX5/heart.png");
+  background-position: right;
+  background-size: contain;
   background-repeat: no-repeat;
+}
+section .product--card img {
+  width: 150px;
+  height: 200px;
+  background-image: cover;
+  border-radius: 6px;
 }/*# sourceMappingURL=main.css.map */
