@@ -1,0 +1,29 @@
+/* Colores */
+$primary-color: #FFEFE7;
+$secondary-color: #FFDAC6;
+$tertiarty-color: #BABD8D;
+$primaryy--text-color: #7C6A0A;
+/* Font-family */
+$font-stack: "IBM Plex Sans", sans-serif;
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: $font-stack;
+}
+
+.nav--bar {
+    width: 100vw;
+    height: 100px;
+    background-color: $primary-color;
+
+}
+
+main{
+    background-color: $primary-color;
+}
