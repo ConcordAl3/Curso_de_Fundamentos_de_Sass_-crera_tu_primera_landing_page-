@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #FFEFE7;
 }
 
 html {
@@ -12,11 +13,48 @@ html {
 }
 
 nav {
-  width: 100vw;
-  height: 100px;
-  background-color: #FFEFE7;
+  width: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #7C6A0A;
+  box-shadow: -1px 4px 20px 0px rgba(0, 0, 0, 0.3);
 }
-
-main {
-  background-color: #FFEFE7;
+nav p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 10px;
+}
+nav .icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+nav .icons .profile {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://i.postimg.cc/QtFQwC9K/user-circle.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .icons .wishlist {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://i.postimg.cc/43NbvBX5/heart.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .icons .clard {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://i.postimg.cc/XvHKsdJ0/shopping-cart.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */

@@ -2,6 +2,7 @@
 $primary-color: #FFEFE7;
 $secondary-color: #FFDAC6;
 $tertiarty-color: #BABD8D;
+$just_white: #ffffff;
 $primaryy--text-color: #7C6A0A;
 /* Font-family */
 $font-stack: "IBM Plex Sans", sans-serif;
@@ -10,6 +11,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: $primary-color;
 }
 
 html{
@@ -18,12 +20,56 @@ html{
 }
 
 nav {
-    width: 100vw;
-    height: 100px;
-    background-color: $primary-color;
+    width: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: $primaryy--text-color;
+    box-shadow: -1px 4px 20px 0px rgba(0,0,0,0.3);
+    p {
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding-left: 10px ;
+    }
 
+    .icons{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        button{
+            background: none;
+            border-style: none;
+            
+        }
+
+        .profile {
+            width: 30px;
+            height: 30px;
+            background-image: url('https://i.postimg.cc/QtFQwC9K/user-circle.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        } 
+                
+        .wishlist {
+        width: 30px;
+        height: 30px;
+        background-image: url('https://i.postimg.cc/43NbvBX5/heart.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        } 
+                
+        .clard {
+        width: 30px;
+        height: 30px;
+        background-image: url('https://i.postimg.cc/XvHKsdJ0/shopping-cart.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+    }   
 }
 
-main{
-    background-color: $primary-color;
-}
+
+
