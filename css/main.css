@@ -11,7 +11,7 @@ html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.nav--bar {
+nav {
   width: 100vw;
   height: 100px;
   background-color: #FFEFE7;
