@@ -276,3 +276,57 @@ section {
         }
     }
 }
+
+/* 
+    seccion encuentranos en
+*/
+
+.location {
+    color: #E86424;
+    .map {
+        @include flexCenter(row, center, center);
+        img {
+            width: 80vw;
+            border-radius: 16px;
+        }
+    }
+    h3 {
+        padding-top: 20px;
+        margin-left: 50px;
+        font-size: 1.8rem;
+    }
+    p {
+        margin-left: 50px;
+        padding-bottom: 60px;
+        font-size: 1.2rem;
+    }
+}
+
+/* 
+    main terminado con todas sus seccions
+    comienza el footer
+*/
+
+footer {
+    padding: 30px;
+    background-color: #E86424;
+    width: 100%;
+    height: auto;
+    color: $just_white;
+    
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            font-size: 1.5rem
+        }
+    }
+    .social--media {
+        @include flexCenter(row, center, center);
+        gap: 25px;
+
+    }
+}

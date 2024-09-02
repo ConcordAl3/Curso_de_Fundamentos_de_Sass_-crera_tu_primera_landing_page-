@@ -241,4 +241,57 @@ section .furniture .product--card {
 }
 .gallery .gallery--img img:hover {
   transform: scale(1.2);
+}
+
+/* 
+    seccion encuentranos en
+*/
+.location {
+  color: #E86424;
+}
+.location .map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.location .map img {
+  width: 80vw;
+  border-radius: 16px;
+}
+.location h3 {
+  padding-top: 20px;
+  margin-left: 50px;
+  font-size: 1.8rem;
+}
+.location p {
+  margin-left: 50px;
+  padding-bottom: 60px;
+  font-size: 1.2rem;
+}
+
+/* 
+    main terminado con todas sus seccions
+    comienza el footer
+*/
+footer {
+  padding: 30px;
+  background-color: #E86424;
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+}
+footer h3 {
+  font-size: 1.8rem;
+}
+footer ul li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+footer .social--media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
 }/*# sourceMappingURL=main.css.map */
